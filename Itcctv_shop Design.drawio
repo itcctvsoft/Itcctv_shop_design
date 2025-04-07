@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.8" pages="6">
   <diagram id="-BD3qXm48tQdW73ARyWg" name="Entity Relationship Diagram">
     <mxGraphModel dx="3686" dy="2691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -4311,6 +4311,38 @@
         </mxCell>
         <mxCell id="cEpcqpbT3i7uyB44Vict-82" value="Xóa dữ liệu từ API" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="1960" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="riDw0kmVqW05QC-MajKy" name="Online Payment">
+    <mxGraphModel dx="1283" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HCGP2WdUSyE9zvzaZDLv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="HCGP2WdUSyE9zvzaZDLv-1" target="HCGP2WdUSyE9zvzaZDLv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HCGP2WdUSyE9zvzaZDLv-1" value="&#xa; Laravel tạo đơn hàng&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HCGP2WdUSyE9zvzaZDLv-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontStyle=1" edge="1" parent="1" source="HCGP2WdUSyE9zvzaZDLv-2" target="HCGP2WdUSyE9zvzaZDLv-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HCGP2WdUSyE9zvzaZDLv-2" value="Chuyển hướng tới cổng thanh toán&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HCGP2WdUSyE9zvzaZDLv-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontStyle=1" edge="1" parent="1" source="HCGP2WdUSyE9zvzaZDLv-3" target="HCGP2WdUSyE9zvzaZDLv-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HCGP2WdUSyE9zvzaZDLv-3" value="Nhận callback và xử lý kết quả" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="440" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HCGP2WdUSyE9zvzaZDLv-5" value="Cập nhật giao dịch trong hệ thống" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="640" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HCGP2WdUSyE9zvzaZDLv-9" value="Sơ đồ luồng xử lý thanh toán online thông qua VNPay và SEPay trong hệ thống Laravel" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="560" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
