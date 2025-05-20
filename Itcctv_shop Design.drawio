@@ -356,7 +356,7 @@
         <mxCell id="taNemY95b9fF1orjfdvU-57" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;span&gt;dbo&lt;/span&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="230" y="-530" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="taNemY95b9fF1orjfdvU-58" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;span&gt;System&lt;/span&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFCE9F,var(--ge-dark-color, #121212));fontStyle=0" parent="1" vertex="1">
+        <mxCell id="taNemY95b9fF1orjfdvU-58" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;span&gt;System&lt;/span&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#ffddbd, var(--ge-dark-color, #121212));fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="470" y="-530" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="taNemY95b9fF1orjfdvU-64" value="AddressBook" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;align=center;resizeLast=1;html=1;fillColor=none;" parent="1" vertex="1">
